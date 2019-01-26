@@ -34,7 +34,7 @@ int main(){
   
    scanf("%d",&N);
    
-if(N<100000)
+if(N>=1 && N<=100000)
 {
    for(i=0;i<N;i++)
       scanf("%d",&c[i]);
