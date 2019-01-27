@@ -6,7 +6,8 @@ int main()
    int N,K;
    scanf("%d %d",&N,&K);
    int a[N],i,l,j;
-   
+   if((N>=1&&N<=100000)&&(K>=1&&K<=100000))
+   {
    for(i=0;i<N;i++)
    {
        
@@ -31,5 +32,6 @@ int main()
        printf("%d ",a[i]);
    }
    
+   }
    return 0;
 }
