@@ -22,13 +22,13 @@ int main()
     }
     
     if(s[i]!='$')
-    
+    {
     if(c>d)
     {
     d=c;
   k=s[i];
   }
-  }
+  }}
   printf("%c",k);
 return 0;
 }   
