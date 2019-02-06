@@ -12,42 +12,42 @@ if(N>=1&&N<=10)
         
         
         case 1:
-        printf("one");
+        printf("One");
         break;
         
         case 2:
-        printf("two");
+        printf("Two");
         break;
         
         case 3:
-        printf("three");
+        printf("Three");
         break;
         
         case 4:
-        printf("four");
+        printf("Four");
         break;
         
         case 5:
-        printf("five");
+        printf("Five");
         break;
         
         case 6:
-        printf("six");
+        printf("Six");
         break;
         case 7:
-        printf("seven");
+        printf("Seven");
         break;
         
         case 8:
-        printf("eight");
+        printf("Eight");
         break;
         
         case 9:
-        printf("nine");
+        printf("Nine");
         break;
         
         case 10:
-        printf("ten");
+        printf("Ten");
         break;
         
         
