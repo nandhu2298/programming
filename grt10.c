@@ -2,11 +2,13 @@
 
 int main()
 {
-   int N,i;
-   scanf("%d",&N);
+   int n,i;
+   scanf("%d",&n);
+   if(n<=10000)
+   {
    
    
-   for(i=N;i>=0;i++)
+   for(i=n;i>=0;i++)
    {
        
        
@@ -21,6 +23,6 @@ int main()
        
        
    }
-   
+   }
    return 0;
 }
