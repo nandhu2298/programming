@@ -3,7 +3,7 @@
 int main()
 {
   
-  char a[1000],b[1000];
+  char a[100000],b[100000];
   int l1=0,l2=0,i,c=0;
   gets(a);
   gets(b);
