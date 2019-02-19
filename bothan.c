@@ -28,7 +28,7 @@ int main()
      
  }
  
- printf("%d %d",c,d);
+
  
   
   if(c!=0&&d!=0)
