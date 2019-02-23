@@ -1,12 +1,12 @@
 #include<stdio.h>
 void main()
 {
-    int a,b,i,p=1,c=0;
-    scanf("%d%d",&a,&b);
-    for(i=1;i<=a;i++)
+    int N,K,i,p=1,c=0;
+    scanf("%d%d",&N,&K);
+    for(i=1;i<=N;i++)
     {
-       p=p*b;
-        if(p==a)
+       p=p*K;
+        if(p==N)
         {
             c++;
             break;
