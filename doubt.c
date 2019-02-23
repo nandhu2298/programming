@@ -3,7 +3,7 @@
 int main()
 {
 
-int N,K,i,j,m;
+int N,K,i,j,m,c=0;
 scanf("%d",&N);
 scanf("%d",&K);
 int a[N+K];
@@ -18,11 +18,17 @@ for(i=0;i<N;i++)
  for(i=N;i<N+K;i++)
 {
   
- for(j=0;j<N+K;j++)
+    scanf("%d",&a[i]);
+   c++;
+      m=a[0];
+   for(j=1;j<N+c;j++)
 {
-  scanf("%d",&a[i]);
   
-  m=a[0];
+
+  
+
+  
+
   
   if(m<a[j])
    m=a[j];
@@ -33,7 +39,7 @@ for(i=0;i<N;i++)
  
 }
 
-printf("%d",m);
+printf("%d ",m);
 
 }
 
