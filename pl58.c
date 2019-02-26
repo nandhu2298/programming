@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#define MAX_SIZE 100
+#define MAX_SIZE 100000
 
 int count(char * str, char * str1);
 
