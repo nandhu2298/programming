@@ -2,8 +2,8 @@
 
 int main()
 {
-   int N,r,base=1,bin=0;
-   scanf("%d",&N);
+  long N,r,base=1,bin=0;
+   scanf("%ld",&N);
    
    while(N)
    {
@@ -14,6 +14,6 @@ int main()
       base=base*10;
       
    }
-   printf("%d",bin);
+   printf("%ld",bin);
     return 0;
 }
