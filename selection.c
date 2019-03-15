@@ -21,7 +21,7 @@ int main()
       if(m>a[j])
       {
           m=a[j];
-          l=m;
+          l=j;
       }
       
       
