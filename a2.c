@@ -20,7 +20,7 @@ int main()
        
          for(k=j+1;k<N;k++)
          {
-             if(a[i]<a[j]<a[k])
+             if(a[i]<a[j]&&a[j]<a[k])
              {
              
             if(a[i]+a[j]==a[k])
